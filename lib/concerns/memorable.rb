@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # module Memorable 
   
 #   class Artist 
@@ -35,3 +36,24 @@ module Memorable
     end
   end
 end
+=======
+module Memorable 
+  
+  class Artist 
+    extend Memorable
+  end 
+  
+  class Song 
+    extend Memorable
+  end 
+  
+  def reset_all
+    all.clear
+  end
+  
+  def count
+    all.count
+  end
+  
+end 
+>>>>>>> 50338b3a24b13a4d6f85deb8a5bd17ea10034686
